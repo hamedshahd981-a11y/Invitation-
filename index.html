@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- الوصف والبيانات المخصصة لمشاركة الرابط على الواتساب وفيسبوك -->
+    <meta property="og:title" content="دعوة خطوبة غالية 💍">
+    <meta property="og:description" content="بكل حب وفرح نتشرف بدعوتكم لحضور حفل خطوبتنا. تكتمل فرحتنا بوجودكم!">
+    <meta property="og:type" content="website">
+    
+    <title>دعوة خطوبة غالية</title>
+    
+    <!-- خطوط من جوجل لإعطاء مظهر متميز وأنيق للكتابة -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* إعدادات الخلفية المتحركة بألوان رومانسية وهادئة */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(-45deg, #fbc5d8, #ecd5e3, #e5e9f0, #e2d1f9);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* كارت الدعوة وتأثير الظهور التفاعلي */
+        .invitation-card {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 35px 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 430px;
+            width: 90%;
+            border: 2px solid #e1b3c4;
+            animation: fadeInUp 1.2s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        h1 {
+            font-family: 'Reem Kufi', sans-serif;
+            color: #4a2e35;
+            margin-bottom: 5px;
+            font-size: 2.2rem;
+        }
+
+        /* تنسيق صندوق الوصف النصي داخل الكارت */
+        .description-text {
+            font-size: 1.1rem;
+            color: #636e72;
+            line-height: 1.8;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        /* أسماء العرسان */
+        .names {
+            font-size: 1.9rem;
+            font-weight: bold;
+            color: #bd5777;
+            margin: 15px 0;
+            letter-spacing: 1px;
+        }
+
+        /* صندوق تفاصيل الموعد والمكان */
+        .details-box {
+            background: rgba(189, 87, 119, 0.06);
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 25px;
+            border: 1px dashed #bd5777;
+        }
+
+        .date, .location {
+            font-weight: bold;
+            color: #4a2e35;
+            margin: 8px 0;
+        }
+
+        /* زر الخريطة اللامع والمتحرك عند الوقوف عليه */
+        .btn-location {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 30px;
+            background-color: #bd5777;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(189, 87, 119, 0.3);
+        }
+
+        .btn-location:hover {
+            background-color: #a04360;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <h1>دعوة خطوبة</h1>
+        <div style="color: #bd5777; font-size: 20px; margin: 10px;">✨ 💍 ✨</div>
+        
+        <!-- نص الوصف الداخلي للكارت -->
+        <div class="description-text">
+            "في حفل يملأه الفرح والمسرات، ونظراً لأن فرحتنا لن تكتمل إلا بنبض قلوبكم وتواجدكم معنا، يسعدنا أن نرسل لكم هذه الدعوة لتشهدوا على بداية رحلتنا السعيدة معاً..."
+        </div>
+        
+        <!-- يمكنك تغيير الأسماء من هنا مباشرة -->
+        <div class="names">
+            العريس & العروس
+        </div>
+        
+        <div class="details-box">
+            <div class="date">📅 التاريخ: الخميس، 16 يوليو 2026</div>
+            <div class="location">📍 المكان: قاعة الفرح الملكية</div>
+        </div>
+
+        <!-- رابط الخريطة: يمكنك استبدال الرابط أدناه برابط قاعتكم المباشر -->
+        <a href="https://maps.google.com" target="_blank" class="btn-location">موقع القاعة على الخريطة 🗺️</a>
+    </div>
+
+</body>
+  </html>
